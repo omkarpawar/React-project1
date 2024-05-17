@@ -1,4 +1,4 @@
-
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
 
    <p>I am learning React</p>
 
+   <ExpenseItem></ExpenseItem>
   </div>
   );
 }
